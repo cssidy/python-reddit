@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # open Reddit in browser
-# run script from termina
+# run script from terminal
 # refresh browser to see changes
 # enter ctrl+c in terminal to stop script
 

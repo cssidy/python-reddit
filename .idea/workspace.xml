@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43417acb-6e04-4e82-8034-c5403264e413" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lmgtfy_bot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_karma_by_subreddit.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tadpole_bot.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/read_reply_bot.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lenny_bot.py" afterPath="$PROJECT_DIR$/lenny_bot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_reply_bot.py" afterPath="$PROJECT_DIR$/read_reply_bot.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +23,8 @@
       <file leaf-file-name="test_bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="56" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#146#157#0" expanded="true" />
               </folding>
@@ -33,25 +32,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read_reply_bot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_reply_bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="56" />
-              <folding>
-                <element signature="e#146#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lenny_bot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lenny_bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lenny_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="56" />
               <folding>
-                <element signature="e#223#234#0" expanded="true" />
+                <element signature="e#224#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tadpole_bot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tadpole_bot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding>
+                <element signature="e#229#240#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +91,7 @@
         <option value="$PROJECT_DIR$/sort_karma_by_subreddit.py" />
         <option value="$PROJECT_DIR$/read_reply_bot.py" />
         <option value="$PROJECT_DIR$/lenny_bot.py" />
+        <option value="$PROJECT_DIR$/tadpole_bot.py" />
       </list>
     </option>
   </component>
@@ -424,9 +424,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#146#157#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -509,20 +507,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="e#146#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/read_reply_bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="56" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#146#157#0" expanded="true" />
           </folding>
@@ -531,10 +527,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lenny_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="56" />
           <folding>
-            <element signature="e#223#234#0" expanded="true" />
+            <element signature="e#224#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tadpole_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="e#229#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
