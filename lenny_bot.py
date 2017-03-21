@@ -1,26 +1,30 @@
-# Posts creeper emoji in response to creep-potential comments.
+#!/usr/bin/python
+
+# open Reddit in browser
+# run script from termina
+# refresh browser to see changes
+# enter ctrl+c in terminal to stop script
+
+# Posts Lenny emoji in response to creep-potential comments.
+# ( ͡° ͜ʖ ͡°)
 
 
 import praw
-
-KEYWORDS = ['pythons', 'python']
-REPLY_TEMPLATE = '( ͡° ͜ʖ ͡°)'
+import re
 
 
-reddit = praw.Reddit('lenny_bot')
-subreddit = reddit.subreddit('AskReddit')
+reddit = praw.Reddit('test_bot')
+subreddit = reddit.subreddit('pythonforengineers')
+
+# verify user login
+# print(reddit.user.me())
+
+# monitor subreddit for new comments matching string
+for comment in subreddit.stream.comments():
+    if re.search('wash', comment.body, re.IGNORECASE):
+        # reply to posts matching keywords
+        comment.reply("( ͡° ͜ʖ ͡°)")
+        print("Bot replying to comment: ", comment.body)
 
 
-def process_submission(submission):
-    normalized_title = submission.title.lower()
-    for keyword_phrase in KEYWORDS:
-        if keyword_phrase in normalized_title:
-            reply_text = REPLY_TEMPLATE
-            print('Replying to: {}', submission.title)
-            submission.reply(reply_text)
-            break
-
-
-for submission in subreddit.stream.submissions():
-    process_submission(submission)
 
