@@ -4,7 +4,7 @@ import praw
 import re
 
 
-reddit = praw.Reddit('read_reply_bot')
+reddit = praw.Reddit('test_bot')
 subreddit = reddit.subreddit('pythonforengineers')
 
 # verify user login
@@ -16,4 +16,3 @@ for comment in subreddit.stream.comments():
         # reply to posts matching keywords
         comment.reply("Argargarg! Pirate bot mespeaks! Me python is grimy!")
         print("Bot replying to comment: ", comment.body)
-
