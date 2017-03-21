@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+# open Reddit in browser
+# run script from termina
+# refresh browser to see changes
+# enter ctrl+c in terminal to stop script
+
 import praw
 import re
 
@@ -12,7 +17,8 @@ subreddit = reddit.subreddit('pythonforengineers')
 
 # monitor subreddit for new comments matching string
 for comment in subreddit.stream.comments():
-    if re.search("soap", comment.body, re.IGNORECASE):
+    if re.search('nsfw', comment.body, re.IGNORECASE):
         # reply to posts matching keywords
-        comment.reply("Argargarg! Pirate bot mespeaks! Me python is grimy!")
+        comment.reply("PG13 Bot: This comment ^ above is not safe for work.")
         print("Bot replying to comment: ", comment.body)
+

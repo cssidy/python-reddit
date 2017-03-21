@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43417acb-6e04-4e82-8034-c5403264e413" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lmgtfy_bot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample_praw.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_bot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_reply_bot.py" afterPath="$PROJECT_DIR$/read_reply_bot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_bot.py" afterPath="$PROJECT_DIR$/test_bot.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,10 +32,10 @@
       <file leaf-file-name="test_bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <element signature="e#19#30#0" expanded="true" />
+                <element signature="e#146#157#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +93,8 @@
         <option value="$PROJECT_DIR$/lmgtfy_bot.py" />
         <option value="$PROJECT_DIR$/praw.ini" />
         <option value="$PROJECT_DIR$/read_reply_bot.py" />
-        <option value="$PROJECT_DIR$/test_bot.py" />
         <option value="$PROJECT_DIR$/sample_praw.ini" />
+        <option value="$PROJECT_DIR$/test_bot.py" />
       </list>
     </option>
   </component>
@@ -501,7 +497,7 @@
         <state relative-caret-position="648">
           <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,10 +538,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#19#30#0" expanded="true" />
+            <element signature="e#146#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
