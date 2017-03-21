@@ -4,11 +4,9 @@
 import praw
 import pprint
 
-user_agent = ("Karma breakdown 1.0 by /u/_Daimon_"
-              "github.com/Damgaard/Reddit-Bots/")
+
 r = praw.Reddit(user_agent=user_agent)
 thing_limit = 10
-user_name = "cssidy"
 user = r.get_redditor(user_name)
 gen = user.get_submitted(limit=thing_limit)
 karma_by_subreddit = {}
