@@ -1,30 +1,29 @@
 #!/usr/bin/python
 
+# author: cssidy
+# Posts Lenny emoji in response to creeper-potential comments.
+# ( ͡° ͜ʖ ͡°)
+
 # open Reddit in browser
 # run script from terminal
 # refresh browser to see changes
 # enter ctrl+c in terminal to stop script
 
-# Posts Lenny emoji in response to creep-potential comments.
-# ( ͡° ͜ʖ ͡°)
-
+# WARNING! may get your account suspended, or many angry inbox messages
+# for educational purposes only
 
 import praw
-import re
 
+# list possible innuendo phrases here
+KEYWORDS = ['uranus', 'sausage', 'nuts', 'sea men', 'package', 'beaver']
 
 reddit = praw.Reddit('test_bot')
-subreddit = reddit.subreddit('pythonforengineers')
-
-# verify user login
-# print(reddit.user.me())
+subreddit = reddit.subreddit('all')
 
 # monitor subreddit for new comments matching string
 for comment in subreddit.stream.comments():
-    if re.search('wash', comment.body, re.IGNORECASE):
-        # reply to posts matching keywords
-        comment.reply("( ͡° ͜ʖ ͡°)")
-        print("Bot replying to comment: ", comment.body)
-
-
+    for k in KEYWORDS:
+        if k in comment.body:
+            print("Bot replying to commenter: ", comment.author)
+            comment.reply("( ͡° ͜ʖ ͡°)")
 

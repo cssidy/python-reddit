@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43417acb-6e04-4e82-8034-c5403264e413" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lenny_bot.py" afterPath="$PROJECT_DIR$/lenny_bot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tadpole_bot.py" afterPath="$PROJECT_DIR$/tadpole_bot.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,23 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lenny_bot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lenny_bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lenny_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-              <folding>
-                <element signature="e#224#235#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tadpole_bot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tadpole_bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tadpole_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="288">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="e#229#240#0" expanded="true" />
               </folding>
@@ -90,11 +86,11 @@
         <option value="$PROJECT_DIR$/test_bot.py" />
         <option value="$PROJECT_DIR$/sort_karma_by_subreddit.py" />
         <option value="$PROJECT_DIR$/read_reply_bot.py" />
-        <option value="$PROJECT_DIR$/lenny_bot.py" />
-        <option value="$PROJECT_DIR$/tadpole_bot.py" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
+        <option value="$PROJECT_DIR$/tadpole_bot.py" />
+        <option value="$PROJECT_DIR$/lenny_bot.py" />
       </list>
     </option>
   </component>
@@ -559,23 +555,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lenny_bot.py">
+    <entry file="file://$PROJECT_DIR$/tadpole_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="288">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="35" />
           <folding>
-            <element signature="e#224#235#0" expanded="true" />
+            <element signature="e#229#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tadpole_bot.py">
+    <entry file="file://$PROJECT_DIR$/lenny_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="e#229#240#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>

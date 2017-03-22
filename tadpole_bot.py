@@ -24,4 +24,4 @@ for comment in subreddit.stream.comments():
     if re.search('wash', comment.body, re.IGNORECASE):
         # reply to posts matching keywords
         comment.reply("(°°)～")
-        print("Bot replying to comment: ", comment.body)
+        print("Bot replying to ", comment.author, 's comment ', comment.body, '.')
