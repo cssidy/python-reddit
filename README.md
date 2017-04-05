@@ -11,3 +11,5 @@
 7. Run .py script in the terminal
 8. Refresh browser view to see changes
 9. Enter ctrl+c to stop script
+
+WARNING: These scripts are not meant for annoying other Reddit users. The lenny_bot script is shown to understand how simple spambots generally operate, hopefully shedding light on spammer processes. 
