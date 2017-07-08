@@ -12,4 +12,4 @@
 8. Refresh browser view to see changes
 9. Enter ctrl+c to stop script
 
-WARNING: These scripts are not meant for annoying other Reddit users. The lenny_bot script is shown to understand how simple spambots generally operate, hopefully shedding light on spammer processes. 
+WARNING: These scripts are not meant for annoying other Reddit users. The lenny_bot script is shown to understand how spambots typically operate, hopefully shedding light on spammer processes and inspiring new ways to protect against them. 
