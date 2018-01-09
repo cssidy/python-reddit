@@ -15,7 +15,7 @@
 import praw
 
 # list possible innuendo phrases here
-KEYWORDS = ['uranus', 'sausage', 'nuts', 'sea men', 'package', 'beaver']
+KEYWORDS = ['uranus']
 
 reddit = praw.Reddit('test_bot')
 subreddit = reddit.subreddit('all')
