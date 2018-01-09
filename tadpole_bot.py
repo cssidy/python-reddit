@@ -5,7 +5,7 @@
 # refresh browser to see changes
 # enter ctrl+c in terminal to stop script
 
-# Posts Ltadpole emoji in response to comments with the word "tadpole".
+# Posts tadpole emoji in response to comments with the word "tadpole".
 # (°°)～
 
 
